@@ -1,0 +1,25 @@
+body{
+    background-color: red;  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+iframe{
+    width: 90%;
+    height: 500px;  
+    border: none;
+    overflow: hidden;
+
+}
+h1{
+    text-align: center;
+    font-size: 50pxf;
+    color: rgb(55, 240, 8);
+    margin-top: 50px;
+
+}
+h2{
+    text-align: center; 
+    font-size: 30px;
+    color: aqua;
+    margin-top: 50px;
+}

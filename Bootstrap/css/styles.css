@@ -1,0 +1,225 @@
+:root {
+    --background: #0094AAff;
+    --navbackground: #E1495Aff;
+    --navcolor: rgb(244, 238, 238);
+    --hcolor: #00C44Fff;
+    --hhcolor: rgb(9, 9, 7);
+    --light: #FFFFFF;
+}
+
+.resize{
+    width: 50%;
+margin: auto;
+}
+
+#elm1{
+    padding: 30px;
+}
+
+body {
+
+    background: var(--background);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-size: large;
+    color: var(--light);
+    margin-top: 0px;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav a {
+    background: var(--navbackground);
+    padding: 10px 15px;
+    margin: 20px;
+    color: var(--navcolor);
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    background: var(--hhcolor);
+}
+
+
+
+img {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+    padding: 20x;
+    background-color: var(--navbackground)
+}
+
+
+
+
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    /* border: 2px solid var(--hhcolor);*/
+}
+
+
+
+.left {
+    float: left;
+}
+
+.left>img {
+    width: 60%;
+}
+
+
+.floatCon {
+    padding: 15px;
+}
+
+.right {
+    float: right;
+}
+
+
+
+p {
+    text-align: left;
+    line-height: 1.5;
+    font-size: large;
+    padding: 15px;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    color: var(--light);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    nav a {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* For desktop: */
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+}
+
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.points{
+    list-style-position: inside;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: #F44336;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgb(15, 15, 14);
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+    cursor: pointer;
+}
+
+#large {
+    width: 40%;
+    display: block;
+    margin: 25px auto;
+
+}
+.ul{
+    margin: auto;
+}

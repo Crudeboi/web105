@@ -1,0 +1,24 @@
+form{
+    background-color: rgb(43, 101, 226);
+    padding: 35px;
+    color:aliceblue;
+    width: 80% ;
+    margin: 20px auto;
+
+}
+form h1{
+    color: rgb(240, 255, 240);
+    margin: 20px 10px 10px - 15px;
+}
+input[type=text] {
+    width: 10%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    margin: 10px;
+}
+textarea{
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid black;
+}

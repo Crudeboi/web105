@@ -1,0 +1,51 @@
+body {
+background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger
+}
+
+img {
+    width: 85%;
+    display: block;
+    margin: 10px auto;
+    padding: 20px;
+    background: linear-gradient(90deg, #FDBB2D 0%, #22C1C3 100%);
+    border-radius: 50px;
+    outline: 10px dashed #3DE823;
+}
+
+h1,
+h2 {
+    color: rgb(58, 58, 1);
+    font-family: fantasy
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    color: #080301;
+    font-size: large;
+    font-style: unset;
+    -moz-column-count: 3;
+        -moz-column-gap: 10px;
+        -webkit-column-count: 3;
+        -webkit-column-gap: 10px;
+        column-count: 3;
+        column-gap: 10px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+dt {
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorange;
+    font-weight: bold;
+}
