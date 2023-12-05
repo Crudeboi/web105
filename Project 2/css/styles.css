@@ -1,0 +1,106 @@
+:root {
+    --background: #0094AAff;
+    --navbackground: #E1495Aff;
+    --navcolor: #000000ff;
+    --hcolor: #00C44Fff;
+    --hhcolor: #E99E04ff;
+    --light: #FFFFFF;
+}
+
+body {
+
+    background: var(--background);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{ text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+    font-size: 12px;
+    color: var(--light);
+    margin-top: 0px;
+}
+
+nav {
+    text-align: center;
+
+}
+
+nav a {
+    background: var(--navbackground);
+    padding: 10px 15px;
+    margin: 20px;
+    color: var(--navcolor);
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+nav a:hover {
+    background: var(--hhcolor);
+}
+
+
+
+img {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+    padding: 20px;
+    background-color: var(--navbackground)
+    
+
+}
+
+
+
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    /* border: 2px solid var(--hhcolor);*/
+}
+
+
+
+.left{
+    float: left;
+}
+.left > img{
+    width: 60%;
+}
+
+
+.floatCon{
+    padding: 15px;
+}
+.right{
+    float: right;
+}
+
+
+
+p {
+    text-align: left;
+    line-height: 1.5;
+    font-size: large;
+    padding: 15px;
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    color: var(--light);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 15px;
+
+}

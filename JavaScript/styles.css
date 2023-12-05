@@ -1,0 +1,49 @@
+
+body {
+
+    background-color: yellow;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1{
+    font-family:sans-serif;
+    
+    
+}
+
+img {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+    padding: 20px;
+    background-color: var(background);
+}
+.container {
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    /* border: 2px solid var(--hhcolor);*/
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    background-color: #F44336;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 0;
+    min-height: 100px;
+    cursor: pointer;
+}
+
+#large{
+    width: 40%;
+    display: block;
+    margin: 25px auto;
+
+}

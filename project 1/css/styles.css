@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 2;
+    font-size: large;
+}
+h1, h2, h3 {
+    color:black;
+    font-weight: 700;
+    text-align: center;
+}
+
+nav{
+text-align: center;
+font-size: large;
+}
+main img{
+    width: 35%;
+    display: block;
+    margin: 10%;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Using Images</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Using Images</h1>
+    </header>
+    <div id="background">
+      <h2>Background Images</h2>
+    </div>
+    <div id="img-map">
+      <h2>Image Map</h2>
+      <img src="images/workplace.jpg" usemap="#image-map" />
+      <map name="image-map">
+        <area
+          target=""
+          alt="HeadPhones"
+          title="HeadPhones"
+          href="#headphones"
+          coords="104,313,100"
+          shape="circle"
+        />
+        <area
+          target=""
+          alt="Keyboard"
+          title="Keyboard"
+          href="#keyboard"
+          coords="222,270,543,403"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt="Mouse"
+          title="Mouse"
+          href="#mouse"
+          coords="558,276,629,408"
+          shape="rect"
+        />
+        <area
+          target=""
+          alt="Hard Drive"
+          title="Hard Drive"
+          href="#harddrive"
+          coords="625,255,456,5"
+          shape="rect"
+        />
+      </map>
+    </div>
+    <div id="float-left">
+      <h2>Float Left</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur
+        fuga corrupti ipsa veniam itaque deserunt, quasi quis aliquam accusamus,
+        velit debitis hic possimus minus incidunt, et beatae cum eos error.
+      </p>
+      <img src="images/bicycle.jpg" alt="bicycle" />
+    </div>
+    <div id="float-right">
+      <h2>Float Right</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente
+        provident quas reprehenderit et quasi non alias doloribus quo a soluta
+        fuga aut, blanditiis dignissimos veritatis, quis nemo, facere animi
+        quos?
+      </p>
+      <img src="images/bicycle.jpg" alt="bicycle" />
+    </div>
+    <div id="picture-tag">
+      <h2>Picture Tag</h2>
+      <picture>
+        <source media="(min-width: 950px)" srcset="images/cat.jpg" />
+        <source media="(min-width: 665px)" srcset="images/dogs.jpg" />
+        <img src="images/bicycle.jpg" />
+      </picture>
+    </div>
+    <div id="linked-image">
+      <h2>Linked Image</h2>
+      <img
+        src="https://cdn.pixabay.com/photo/2016/05/11/00/08/wolf-1384944_1280.jpg"
+        alt="Sleeping Wolves"
+      />
+    </div>
+    <div id="img-as-link">
+      <h2>Image As Link</h2>
+      <a href="https://www.animalhouseshelter.com/"
+        ><img src="images/dogs.jpg" alt="k9"
+      /></a>
+    </div>
+    <div id="keyboard">
+      <h2>Keyboard</h2>
+    </div>
+    <div id="harddrive">
+      <h2>Hard Drive</h2>
+    </div>
+    <div id="headphones">
+      <h2>HeadPhones</h2>
+    </div>
+    <div id="mouse">
+      <h2>Mouse</h2>
+    </div>
+  </body>
+</html>

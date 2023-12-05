@@ -1,0 +1,41 @@
+body{
+    background: forestgreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 70;
+    margin: 10px auto;
+} 
+
+h1 {
+    color: aqua;
+    text-align: center;
+}
+
+ol {
+    list-style-type: numeric;
+}
+
+ol ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul ul {
+    list-style-type: bullet point;
+}
+
+dt {
+    color: rgb(223, 6, 6);
+}
+
+dd {
+    color: rgb(205, 234, 18);
+}
+
+
+
